@@ -1,4 +1,4 @@
-export const moves = [
+const moves = [
   { id: 1, type: 'normal', level: 1, move: 'growl' },
   { id: 2, type: 'normal', level: 1, move: 'tackle' },
   { id: 3, type: 'grass', level: 3, move: 'vine whip' },
@@ -12,3 +12,5 @@ export const moves = [
   { id: 11, type: 'normal', level: 24, move: 'sweet scent' },
   { id: 12, type: 'grass', level: 27, move: 'synthesis' }
 ];
+
+export default moves;
